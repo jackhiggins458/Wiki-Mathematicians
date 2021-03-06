@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width":500,
   "height":400,
-  "data": {"url": "https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/professions_by_decade.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/jackhiggins458/Wiki-Mathematicians/main/docs/data/professions_by_decade.csv"},
   "transform": [
     {
     "calculate": "if(datum.profession === 'Math Professor', 0, if(datum.profession === 'Astronomer', 1, if(datum.profession === 'Theologian ', 2, if(datum.profession === 'Computer Scientist', 3,4))))",
