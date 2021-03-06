@@ -3,7 +3,7 @@
   "config": {"view": {"stroke": ""}},
   "width": 400,
   "height": 400,
-  "data": {"url":"https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/isotype.csv"
+  "data": {"url":"https://raw.githubusercontent.com/jackhiggins458/Wiki-Mathematicians/main/docs/data/isotype.csv"
   },
   "transform": [
     {"calculate": "ceil (datum.id/10)", "as": "col"},

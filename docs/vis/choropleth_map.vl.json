@@ -10,7 +10,7 @@
     {
       "lookup": "id",
       "from": {
-        "data": {"url": "https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/math_country_data.csv"},
+        "data": {"url": "https://raw.githubusercontent.com/jackhiggins458/Wiki-Mathematicians/main/docs/data/math_country_data.csv"},
         "key": "id",
         "fields": ["per_mil_rounded", "per_mil_class", "n"]
       }

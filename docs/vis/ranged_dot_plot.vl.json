@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "data": { "url": "https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/fields_of_work_2.csv"},
+  "data": { "url": "https://raw.githubusercontent.com/jackhiggins458/Wiki-Mathematicians/main/docs/data/fields_of_work_2.csv"},
   "width":500,
   "height":400,
   "padding":{"left": -20, "right": -40},

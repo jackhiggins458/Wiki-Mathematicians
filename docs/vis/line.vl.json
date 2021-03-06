@@ -3,7 +3,7 @@
   "width": 500,
   "height":300,
   "description": "Insert description here.",
-  "data": {"url": "https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/decades_born.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/jackhiggins458/Wiki-Mathematicians/main/docs/data/decades_born.csv"},
 
   "mark": {
     "type": "line",

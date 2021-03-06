@@ -3,7 +3,7 @@
   "width": 500,
   "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/math_country_data.csv"},
+    "url": "https://raw.githubusercontent.com/jackhiggins458/Wiki-Mathematicians/main/docs/data/math_country_data.csv"},
     "params": [
       {
         "name": "GDP_Below",

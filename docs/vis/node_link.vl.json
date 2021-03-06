@@ -54,12 +54,12 @@
   "data": [
     {
       "name": "node-data",
-      "url": "https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/top_100_links.json",
+      "url": "https://raw.githubusercontent.com/jackhiggins458/Wiki-Mathematicians/main/docs/data/top_100_links.json",
       "format": {"type": "json", "property": "nodes"}
     },
     {
       "name": "link-data",
-      "url": "https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/top_100_links.json",
+      "url": "https://raw.githubusercontent.com/jackhiggins458/Wiki-Mathematicians/main/docs/data/top_100_links.json",
       "format": {"type": "json", "property": "links"}
     }
   ],

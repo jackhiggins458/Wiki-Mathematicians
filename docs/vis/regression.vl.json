@@ -3,7 +3,7 @@
   "width":500,
   "height":300,
   "data": {
-    "url": "https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/top_100.csv"
+    "url": "https://raw.githubusercontent.com/jackhiggins458/Wiki-Mathematicians/main/docs/data/top_100.csv"
   },
   "layer": [
     {
