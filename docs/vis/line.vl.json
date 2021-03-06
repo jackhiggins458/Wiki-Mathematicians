@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height":300,
+  "description": "Insert description here.",
+  "data": {"url": "https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/decades_born.csv"},
+
+  "mark": {
+    "type": "line",
+    "point": {
+      "filled": true,
+      "size":25
+    }
+  },
+  "encoding": {
+    "x": {"field": "decade_born", "type": "temporal"},
+    "y": {"field": "n", "type": "quantitative"},
+    "color": {
+      "field": "sex", 
+      "type": "nominal", 
+      "scale":{"range":["#6bafb0", "#C47877"]},
+      "title":"Sex",
+      "labels":""},
+    "tooltip": [
+      {"field": "tag", "type": "quantitative", "title": "Decade Born"},
+      {"field": "n", "type": "quantitative", "title": "Number of Wikipedia mathematicians"},
+      {"field": "sex", "type": "nominal", "title": "Sex"}
+    ]
+  }
+}

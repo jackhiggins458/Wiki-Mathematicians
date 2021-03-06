@@ -1,0 +1,19 @@
+field,only_medalists,percentage_of_mathematicians,fields_greater_than_base_rate,color_id,percentage2, delta
+Foundations,All Mathematicians,0.08,N,e,0.08,
+Algebra,All Mathematicians,0.06,Y,e,0.06,
+Analysis,All Mathematicians,0.20,Y,e,0.2,
+Discrete math,All Mathematicians,0.10,N,e,0.1,
+Geometry,All Mathematicians,0.15,Y,e,0.15,
+Number theory,All Mathematicians,0.13,Y,e,0.13,
+Topology,All Mathematicians,0.09,Y,e,0.09,
+Applied math,All Mathematicians,0.18,N,e,0.18,
+Other,All Mathematicians,0.01,N,e,0.01,
+Foundations,Only Fields Medalists,0.01,N,Fields rate lower,0,-0.07
+Algebra,Only Fields Medalists,0.07,Y,Fields rate higher,0,+0.01
+Analysis,Only Fields Medalists,0.21,Y,Fields rate higher,0,+0.01
+Discrete math,Only Fields Medalists,0.03,N,Fields rate lower,0,-0.07
+Geometry,Only Fields Medalists,0.25,Y,Fields rate higher,0,+0.10
+Number theory,Only Fields Medalists,0.14,Y,Fields rate higher,0,+0.10
+Topology,Only Fields Medalists,0.14,Y,Fields rate higher,0,+0.05
+Applied math,Only Fields Medalists,0.14,N,Fields rate lower,0,-0.04
+Other,Only Fields Medalists,0,N,Fields rate lower,0,-0.01

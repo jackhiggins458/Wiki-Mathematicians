@@ -1,0 +1,101 @@
+id,sex,field_all,field_medalist,pure
+1,F,foundations,foundations,pure
+2,F,foundations,algebra,pure
+3,F,foundations,algebra,pure
+4,F,foundations,algebra,pure
+5,F,foundations,algebra,pure
+6,F,foundations,algebra,pure
+7,F,foundations,algebra,pure
+8,F,foundations,algebra,pure
+9,F,algebra,analysis,pure
+10,M,algebra,analysis,pure
+11,M,algebra,analysis,pure
+12,M,algebra,analysis,pure
+13,M,algebra,analysis,pure
+14,M,algebra,analysis,pure
+15,M,analysis,analysis,pure
+16,M,analysis,analysis,pure
+17,M,analysis,analysis,pure
+18,M,analysis,analysis,pure
+19,M,analysis,analysis,pure
+20,M,analysis,analysis,pure
+21,M,analysis,analysis,pure
+22,M,analysis,analysis,pure
+23,M,analysis,analysis,pure
+24,M,analysis,analysis,pure
+25,M,analysis,analysis,pure
+26,M,analysis,analysis,pure
+27,M,analysis,analysis,pure
+28,M,analysis,analysis,pure
+29,M,analysis,analysis,pure
+30,M,analysis,discrete,pure
+31,M,analysis,discrete,pure
+32,M,analysis,discrete,pure
+33,M,analysis,geometry,pure
+34,M,analysis,geometry,pure
+35,M,discrete,geometry,pure
+36,M,discrete,geometry,pure
+37,M,discrete,geometry,pure
+38,M,discrete,geometry,pure
+39,M,discrete,geometry,pure
+40,M,discrete,geometry,pure
+41,M,discrete,geometry,pure
+42,M,discrete,geometry,pure
+43,M,discrete,geometry,pure
+44,M,discrete,geometry,pure
+45,M,geometry,geometry,pure
+46,M,geometry,geometry,pure
+47,M,geometry,geometry,pure
+48,M,geometry,geometry,pure
+49,M,geometry,geometry,pure
+50,M,geometry,geometry,pure
+51,M,geometry,geometry,pure
+52,M,geometry,geometry,pure
+53,M,geometry,geometry,pure
+54,M,geometry,geometry,pure
+55,M,geometry,geometry,pure
+56,M,geometry,geometry,pure
+57,M,geometry,geometry,pure
+58,M,geometry,number theory,pure
+59,M,geometry,number theory,pure
+60,M,number theory,number theory,pure
+61,M,number theory,number theory,pure
+62,M,number theory,number theory,pure
+63,M,number theory,number theory,pure
+64,M,number theory,number theory,pure
+65,M,number theory,number theory,pure
+66,M,number theory,number theory,pure
+67,M,number theory,number theory,pure
+68,M,number theory,number theory,pure
+69,M,number theory,number theory,pure
+70,M,number theory,number theory,pure
+71,M,number theory,number theory,pure
+72,M,number theory,topology,pure
+73,M,topology,topology,pure
+74,M,topology,topology,pure
+75,M,topology,topology,pure
+76,M,topology,topology,pure
+77,M,topology,topology,pure
+78,M,topology,topology,pure
+79,M,topology,topology,pure
+80,M,topology,topology,pure
+81,M,topology,topology,pure
+82,M,applied,topology,applied
+83,M,applied,topology,applied
+84,M,applied,topology,applied
+85,M,applied,topology,applied
+86,M,applied,topology,applied
+87,M,applied,applied,applied
+88,M,applied,applied,applied
+89,M,applied,applied,applied
+90,M,applied,applied,applied
+91,M,applied,applied,applied
+92,M,applied,applied,applied
+93,M,applied,applied,applied
+94,M,applied,applied,applied
+95,M,applied,applied,applied
+96,M,applied,applied,applied
+97,M,applied,applied,applied
+98,M,applied,applied,applied
+99,M,applied,applied,applied
+100,M,other,applied,applied

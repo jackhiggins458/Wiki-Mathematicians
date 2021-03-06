@@ -1,0 +1,118 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 300,
+  "data": {"url": "https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/fields_of_work_2.csv"},
+ 
+   "title": {
+    "text":"Proportion of Wiki Mathematicians Specialising in Each Area",
+    "anchor": "start",
+    "frame": "group",
+    "font":"Georgia",
+    "color":"#303030",
+    "fontSize":16,
+    "fontWeight":400,
+    "subtitleFont":"Source Sans Pro",
+    "subtitleFontSize":14,
+    "subtitleColor":"#808080",
+    "subtitleLineHeight":18,
+    "subtitlePadding":10,
+    "dy":0
+  },
+   "encoding": {
+      "x": {
+        "field": "percentage2",
+        "type": "quantitative",
+        "scale": {"domain": [0, 0.22]},
+        "axis": {
+          "title":"Proportion of Wiki Mathematicians",
+          "titleFont": "Georgia",
+          "titleFontWeight":500,
+          "titleFontSize":14,
+          "titleFontStyle":"italic",
+          "labelFont":"Source Sans Pro",
+          "gridOpacity":0,
+          "tickCount":5,
+          "domainOpacity":0.5,
+          "labelOpacity":0.5,
+          "tickOpacity":0.5,
+          "titleOpacity":0.7
+        }
+      },
+    "y": {
+      "field": "field",
+      "type": "nominal",
+      "axis": null,
+      "sort":["Analysis","Applied math","Geometry","Number theory","Discrete math","Topology","Foundations","Algebra","Other"]
+    }
+   },
+
+  "layer": [
+    { 
+      "mark": {"type":"line","strokeWidth":5},
+      "encoding": {
+        "detail": {
+          "field": "field",
+          "type": "nominal"
+        },
+            "color":{
+      "field":"field", 
+      "scale":{
+        "domain": ["Analysis","Applied math","Geometry","Number theory","Discrete math","Topology","Foundations","Algebra","Other"], 
+        "range":["#45657D", "#598295", "#6F9FAC", 
+        "#86BBC1", "#9FD5D5", "#ACDFCD", "#BAE7C9", 
+        "#CBEFCA", "#E4F5DA"], 
+        "reverse":false
+      }, 
+      "legend":null
+    }
+    }},
+    {
+      "mark":{"type":"circle","size":700},
+      "encoding": {
+        "opacity": {
+          "condition": {"test":"datum['only_medalists'] === 'Only Fields Medalists'", "value":0},
+          "value":1
+        },
+        "color":{
+      "field":"field", 
+      "scale":{
+        "domain": ["Analysis","Applied math","Geometry","Number theory","Discrete math","Topology","Foundations","Algebra","Other"], 
+        "range":["#45657D", "#598295", "#6F9FAC", 
+        "#86BBC1", "#9FD5D5", "#ACDFCD", "#BAE7C9", 
+        "#CBEFCA", "#E4F5DA"], 
+        "reverse":false
+      }, 
+      "legend":null
+    }}},
+   {
+      "mark": {"type": "text", "align": "left", "dx":20, "font":"Georgia", "color":"#1e1e1e"},
+      "encoding": {
+        "text": {"field": "field"},
+        "opacity": {
+          "condition": {"test":"datum['only_medalists'] === 'Only Fields Medalists'", "value":0}
+        }
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "center", "dx": 0, "fontWeight":500},
+      "encoding": {
+        "text": {"field": "percentage_of_mathematicians"},
+        "opacity": {
+          "condition": {"test":"datum['only_medalists'] === 'Only Fields Medalists'", "value":0}
+        },
+        "color":{
+          "condition": {"test":"datum['percentage2'] > 0.1", "value":"white"},
+          "value":"#1e1e1e"
+        }
+      }
+  }
+  ],
+  "config": {
+  "style": {
+    "cell": {
+      "stroke": "transparent"
+    }
+  }
+}
+}

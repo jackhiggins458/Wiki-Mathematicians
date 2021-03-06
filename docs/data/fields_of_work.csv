@@ -1,0 +1,25 @@
+field,rank,only_medalists,number_of_mathematicians,percentage_of_mathematicians,fields_greater_than_base_rate
+algebraic geometry,9,All Mathematicians,90,3.9,Y
+algebraic geometry,1,Fields Medalists,11,21.6,Y
+combinatorics,6,All Mathematicians,151,6.5,N
+combinatorics,10,Fields Medalists,2,3.9,N
+differential geometry,8,All Mathematicians,99,4.3,Y
+differential geometry,8,Fields Medalists,3,5.9,Y
+geometry,5,All Mathematicians,167,7.2,N
+geometry,,Fields Medalists,1,2.0,N
+graph theory,10,All Mathematicians,90,3.9,N
+graph theory,,Fields Medalists,0,0.0,N
+group theory,7,All Mathematicians,117,5.0,N
+group theory,9,Fields Medalists,2,3.9,N
+mathematical analysis,2,All Mathematicians,292,12.5,Y
+mathematical analysis,4,Fields Medalists,8,15.7,Y
+mathematical physics,20,All Mathematicians,42,1.8,Y
+mathematical physics,7,Fields Medalists,3,5.9,Y
+number theory,1,All Mathematicians,331,14.2,Y
+number theory,2,Fields Medalists,11,21.6,Y
+partial differential equations,6,Fields Medalists,3,5.9,Y
+partial differential equations,19,All Mathematicians,43,1.8,Y
+probability theory,4,All Mathematicians,175,7.5,Y
+probability theory,5,Fields Medalists,4,7.8,Y
+topology,3,All Mathematicians,221,9.5,Y
+topology,3,Fields Medalists,11,21.6,Y

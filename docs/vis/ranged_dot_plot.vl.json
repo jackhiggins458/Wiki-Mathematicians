@@ -1,0 +1,146 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": { "url": "https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/fields_of_work_2.csv"},
+  "width":500,
+  "height":400,
+  "padding":{"left": -20, "right": -40},
+
+  "title": {
+    "text":"Proportion of Fields Medalists Specialising in Each Area",
+    "subtitle":"Compared to All Wiki Mathematicians",
+    "anchor": "start",
+    "frame": "group",
+    "font":"Georgia",
+    "color":"#303030",
+    "fontSize":16,
+    "fontWeight":400,
+    "subtitleFont":"Georgia",
+    "subtitleFontSize":14,
+    "subtitleColor":"#808080",
+    "subtitleLineHeight":18,
+    "subtitlePadding":10,
+    "dy":0
+  },
+  "encoding": {
+    "x": {
+            "field": "percentage_of_mathematicians",
+            "type": "quantitative",
+            "axis": {
+              "gridOpacity":0.4,
+              "title":"Proportion of Wiki Mathematicians",
+              "titleFont": "Georgia",
+              "titleFontWeight":500,
+              "titleFontSize":14,
+              "titleFontStyle":"italic",
+              "labelFont":"Source Sans Pro",
+              "domainOpacity":0.5,
+              "labelOpacity":0.5,
+              "tickOpacity":0.5,
+              "titleOpacity":0.7
+            }
+          },
+    "y": {
+      "field": "field",
+      "type": "nominal",
+      "sort":["Analysis","Applied math","Geometry","Number theory","Discrete math","Topology","Foundations","Algebra","Other"],
+       "axis": null
+      
+    }
+  },
+  "layer": [
+    {"mark":"point",
+      "encoding": {
+        "color":{
+          "field":"color_id",
+          "scale":{"range":["#77c3c4","#C47877", "grey"]},
+          "legend":{
+            "title":"Difference", 
+            "values":["Fields rate higher","Fields rate lower"],
+            "symbolType":"stroke", 
+            "symbolStrokeWidth":5, 
+            "symbolOpacity":0.4, 
+            "symbolSize":300, 
+            "orient": "none",
+            "legendX":340, "legendY":320,
+            "titleFont": "Georgia",
+            "titleFontWeight":500,
+            "titleFontSize":14,
+            "titleFontStyle":"italic",
+            "labelFont":"Source Sans Pro",
+            "titleOpacity":0.8,
+            "labelOpacity":0.8,
+            "labelFontSize":12
+          }
+        },
+        "shape":{
+          "field":"only_medalists",
+          "scale":{"range":["stroke", "M0,.5L.6,.8L.5,.1L1,-.3L.3,-.4L0,-1L-.3,-.4L-1,-.3L-.5,.1L-.6,.8L0,.5Z"]},
+          "legend":{
+            "title":"Mathematicians", 
+            "orient": "none",
+            "legendX":340, "legendY":255,
+            "titleFont": "Georgia",
+            "titleFontWeight":500,
+            "titleFontSize":14,
+            "titleFontStyle":"italic",
+            "labelFont":"Source Sans Pro",
+            "titleOpacity":0.8,
+            "labelOpacity":0.8,
+            "labelFontSize":12
+          }
+        },
+        "size":{
+          "field":"only_medalists",
+          "scale":{"range":[100,50]}
+        },
+        "opacity":{"value":1},
+        "strokeWidth":{
+          "field":"only_medalists",
+          "scale":{"range":[3, 5]}
+        },
+        "angle":{
+          "field":"only_medalists",
+          "scale":{"range":[90, 0]
+          }
+        }
+      }
+    }, 
+    { 
+      "mark": "line",
+      "encoding": {
+        "detail": {
+          "field": "field",
+          "type": "nominal"
+        },
+        "color": {
+          "condition": {"test": "datum['fields_greater_than_base_rate']==='Y'", "value":"#77c3c4"}, "value":"#C47877"},
+        "opacity":{"value":0.6},
+        "strokeWidth":{"value":10}
+        
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "dx": 10, "font":"Georgia"},
+      "encoding": {
+        "text": {"field": "field"},
+        "opacity": {
+          "condition": {"test":"datum['only_medalists'] === 'Only Fields Medalists' || datum['fields_greater_than_base_rate'] === 'Y'", "value":0}
+        }
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "right", "dx": -10, "font":"Georgia"},
+      "encoding": {
+        "text": {"field": "field"},
+        "opacity": {
+          "condition": {"test":"datum['only_medalists'] === 'Only Fields Medalists' || datum['fields_greater_than_base_rate'] === 'N'", "value":0}
+        }
+      }
+  }
+  ],
+  
+  "config": {
+    "view": {"stroke": "transparent"},
+    "axis": {"domainWidth": 1}
+  }
+}

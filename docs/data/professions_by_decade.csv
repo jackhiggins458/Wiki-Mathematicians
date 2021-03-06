@@ -1,0 +1,330 @@
+decade,profession,n,tag
+Jan 1 1510,Math Professor,3,1510s
+Jan 1 1520,Math Professor,3,1520s
+Jan 1 1530,Math Professor,6,1530s
+Jan 1 1540,Math Professor,5,1540s
+Jan 1 1550,Math Professor,4,1550s
+Jan 1 1560,Math Professor,4,1560s
+Jan 1 1570,Math Professor,4,1570s
+Jan 1 1580,Math Professor,9,1580s
+Jan 1 1590,Math Professor,3,1590s
+Jan 1 1600,Math Professor,3,1600s
+Jan 1 1610,Math Professor,5,1610s
+Jan 1 1620,Math Professor,4,1620s
+Jan 1 1630,Math Professor,5,1630s
+Jan 1 1640,Math Professor,5,1640s
+Jan 1 1650,Math Professor,5,1650s
+Jan 1 1660,Math Professor,3,1660s
+Jan 1 1670,Math Professor,3,1670s
+Jan 1 1680,Math Professor,6,1680s
+Jan 1 1690,Math Professor,5,1690s
+Jan 1 1700,Math Professor,7,1700s
+Jan 1 1710,Math Professor,11,1710s
+Jan 1 1720,Math Professor,2,1720s
+Jan 1 1730,Math Professor,8,1730s
+Jan 1 1740,Math Professor,6,1740s
+Jan 1 1750,Math Professor,12,1750s
+Jan 1 1760,Math Professor,12,1760s
+Jan 1 1770,Math Professor,14,1770s
+Jan 1 1780,Math Professor,12,1780s
+Jan 1 1790,Math Professor,20,1790s
+Jan 1 1800,Math Professor,29,1800s
+Jan 1 1810,Math Professor,20,1810s
+Jan 1 1820,Math Professor,24,1820s
+Jan 1 1830,Math Professor,46,1830s
+Jan 1 1840,Math Professor,57,1840s
+Jan 1 1850,Math Professor,63,1850s
+Jan 1 1860,Math Professor,65,1860s
+Jan 1 1870,Math Professor,80,1870s
+Jan 1 1880,Math Professor,125,1880s
+Jan 1 1890,Math Professor,104,1890s
+Jan 1 1900,Math Professor,173,1900s
+Jan 1 1910,Math Professor,185,1910s
+Jan 1 1920,Math Professor,286,1920s
+Jan 1 1930,Math Professor,287,1930s
+Jan 1 1940,Math Professor,343,1940s
+Jan 1 1950,Math Professor,229,1950s
+Jan 1 1960,Math Professor,112,1960s
+Jan 1 1970,Math Professor,69,1970s
+Jan 1 1510,Physicist,1,1510s
+Jan 1 1520,Physicist,0,1520s
+Jan 1 1530,Physicist,1,1530s
+Jan 1 1540,Physicist,0,1540s
+Jan 1 1550,Physicist,1,1550s
+Jan 1 1560,Physicist,3,1560s
+Jan 1 1570,Physicist,2,1570s
+Jan 1 1580,Physicist,5,1580s
+Jan 1 1590,Physicist,3,1590s
+Jan 1 1600,Physicist,6,1600s
+Jan 1 1610,Physicist,3,1610s
+Jan 1 1620,Physicist,3,1620s
+Jan 1 1630,Physicist,2,1630s
+Jan 1 1640,Physicist,3,1640s
+Jan 1 1650,Physicist,6,1650s
+Jan 1 1660,Physicist,2,1660s
+Jan 1 1670,Physicist,3,1670s
+Jan 1 1680,Physicist,4,1680s
+Jan 1 1690,Physicist,5,1690s
+Jan 1 1700,Physicist,9,1700s
+Jan 1 1710,Physicist,7,1710s
+Jan 1 1720,Physicist,2,1720s
+Jan 1 1730,Physicist,6,1730s
+Jan 1 1740,Physicist,8,1740s
+Jan 1 1750,Physicist,6,1750s
+Jan 1 1760,Physicist,5,1760s
+Jan 1 1770,Physicist,11,1770s
+Jan 1 1780,Physicist,7,1780s
+Jan 1 1790,Physicist,10,1790s
+Jan 1 1800,Physicist,15,1800s
+Jan 1 1810,Physicist,5,1810s
+Jan 1 1820,Physicist,12,1820s
+Jan 1 1830,Physicist,10,1830s
+Jan 1 1840,Physicist,14,1840s
+Jan 1 1850,Physicist,22,1850s
+Jan 1 1860,Physicist,15,1860s
+Jan 1 1870,Physicist,16,1870s
+Jan 1 1880,Physicist,25,1880s
+Jan 1 1890,Physicist,20,1890s
+Jan 1 1900,Physicist,31,1900s
+Jan 1 1910,Physicist,32,1910s
+Jan 1 1920,Physicist,41,1920s
+Jan 1 1930,Physicist,55,1930s
+Jan 1 1940,Physicist,40,1940s
+Jan 1 1950,Physicist,29,1950s
+Jan 1 1960,Physicist,11,1960s
+Jan 1 1970,Physicist,9,1970s
+Jan 1 1510,Computer Scientist,0,1510s
+Jan 1 1520,Computer Scientist,0,1520s
+Jan 1 1530,Computer Scientist,0,1530s
+Jan 1 1540,Computer Scientist,0,1540s
+Jan 1 1550,Computer Scientist,0,1550s
+Jan 1 1560,Computer Scientist,0,1560s
+Jan 1 1570,Computer Scientist,0,1570s
+Jan 1 1580,Computer Scientist,0,1580s
+Jan 1 1590,Computer Scientist,0,1590s
+Jan 1 1600,Computer Scientist,0,1600s
+Jan 1 1610,Computer Scientist,0,1610s
+Jan 1 1620,Computer Scientist,0,1620s
+Jan 1 1630,Computer Scientist,0,1630s
+Jan 1 1640,Computer Scientist,1,1640s
+Jan 1 1650,Computer Scientist,0,1650s
+Jan 1 1660,Computer Scientist,0,1660s
+Jan 1 1670,Computer Scientist,0,1670s
+Jan 1 1680,Computer Scientist,0,1680s
+Jan 1 1690,Computer Scientist,0,1690s
+Jan 1 1700,Computer Scientist,0,1700s
+Jan 1 1710,Computer Scientist,0,1710s
+Jan 1 1720,Computer Scientist,0,1720s
+Jan 1 1730,Computer Scientist,0,1730s
+Jan 1 1740,Computer Scientist,0,1740s
+Jan 1 1750,Computer Scientist,0,1750s
+Jan 1 1760,Computer Scientist,0,1760s
+Jan 1 1770,Computer Scientist,0,1770s
+Jan 1 1780,Computer Scientist,0,1780s
+Jan 1 1790,Computer Scientist,1,1790s
+Jan 1 1800,Computer Scientist,0,1800s
+Jan 1 1810,Computer Scientist,1,1810s
+Jan 1 1820,Computer Scientist,0,1820s
+Jan 1 1830,Computer Scientist,1,1830s
+Jan 1 1840,Computer Scientist,0,1840s
+Jan 1 1850,Computer Scientist,1,1850s
+Jan 1 1860,Computer Scientist,1,1860s
+Jan 1 1870,Computer Scientist,1,1870s
+Jan 1 1880,Computer Scientist,0,1880s
+Jan 1 1890,Computer Scientist,5,1890s
+Jan 1 1900,Computer Scientist,18,1900s
+Jan 1 1910,Computer Scientist,31,1910s
+Jan 1 1920,Computer Scientist,65,1920s
+Jan 1 1930,Computer Scientist,64,1930s
+Jan 1 1940,Computer Scientist,97,1940s
+Jan 1 1950,Computer Scientist,71,1950s
+Jan 1 1960,Computer Scientist,40,1960s
+Jan 1 1970,Computer Scientist,15,1970s
+Jan 1 1510,Astronomer,5,1510s
+Jan 1 1520,Astronomer,4,1520s
+Jan 1 1530,Astronomer,7,1530s
+Jan 1 1540,Astronomer,4,1540s
+Jan 1 1550,Astronomer,11,1550s
+Jan 1 1560,Astronomer,9,1560s
+Jan 1 1570,Astronomer,4,1570s
+Jan 1 1580,Astronomer,13,1580s
+Jan 1 1590,Astronomer,9,1590s
+Jan 1 1600,Astronomer,9,1600s
+Jan 1 1610,Astronomer,8,1610s
+Jan 1 1620,Astronomer,8,1620s
+Jan 1 1630,Astronomer,6,1630s
+Jan 1 1640,Astronomer,7,1640s
+Jan 1 1650,Astronomer,5,1650s
+Jan 1 1660,Astronomer,2,1660s
+Jan 1 1670,Astronomer,5,1670s
+Jan 1 1680,Astronomer,8,1680s
+Jan 1 1690,Astronomer,7,1690s
+Jan 1 1700,Astronomer,8,1700s
+Jan 1 1710,Astronomer,8,1710s
+Jan 1 1720,Astronomer,5,1720s
+Jan 1 1730,Astronomer,11,1730s
+Jan 1 1740,Astronomer,7,1740s
+Jan 1 1750,Astronomer,7,1750s
+Jan 1 1760,Astronomer,7,1760s
+Jan 1 1770,Astronomer,12,1770s
+Jan 1 1780,Astronomer,9,1780s
+Jan 1 1790,Astronomer,10,1790s
+Jan 1 1800,Astronomer,11,1800s
+Jan 1 1810,Astronomer,11,1810s
+Jan 1 1820,Astronomer,11,1820s
+Jan 1 1830,Astronomer,13,1830s
+Jan 1 1840,Astronomer,8,1840s
+Jan 1 1850,Astronomer,7,1850s
+Jan 1 1860,Astronomer,13,1860s
+Jan 1 1870,Astronomer,11,1870s
+Jan 1 1880,Astronomer,7,1880s
+Jan 1 1890,Astronomer,6,1890s
+Jan 1 1900,Astronomer,8,1900s
+Jan 1 1910,Astronomer,10,1910s
+Jan 1 1920,Astronomer,8,1920s
+Jan 1 1930,Astronomer,9,1930s
+Jan 1 1940,Astronomer,7,1940s
+Jan 1 1950,Astronomer,1,1950s
+Jan 1 1960,Astronomer,3,1960s
+Jan 1 1970,Astronomer,0,1970s
+Jan 1 1510,Theologian ,3,1510s
+Jan 1 1520,Theologian ,2,1520s
+Jan 1 1530,Theologian ,1,1530s
+Jan 1 1540,Theologian ,5,1540s
+Jan 1 1550,Theologian ,4,1550s
+Jan 1 1560,Theologian ,5,1560s
+Jan 1 1570,Theologian ,4,1570s
+Jan 1 1580,Theologian ,6,1580s
+Jan 1 1590,Theologian ,2,1590s
+Jan 1 1600,Theologian ,3,1600s
+Jan 1 1610,Theologian ,6,1610s
+Jan 1 1620,Theologian ,1,1620s
+Jan 1 1630,Theologian ,3,1630s
+Jan 1 1640,Theologian ,6,1640s
+Jan 1 1650,Theologian ,5,1650s
+Jan 1 1660,Theologian ,1,1660s
+Jan 1 1670,Theologian ,0,1670s
+Jan 1 1680,Theologian ,1,1680s
+Jan 1 1690,Theologian ,2,1690s
+Jan 1 1700,Theologian ,3,1700s
+Jan 1 1710,Theologian ,2,1710s
+Jan 1 1720,Theologian ,2,1720s
+Jan 1 1730,Theologian ,3,1730s
+Jan 1 1740,Theologian ,3,1740s
+Jan 1 1750,Theologian ,2,1750s
+Jan 1 1760,Theologian ,1,1760s
+Jan 1 1770,Theologian ,1,1770s
+Jan 1 1780,Theologian ,3,1780s
+Jan 1 1790,Theologian ,2,1790s
+Jan 1 1800,Theologian ,1,1800s
+Jan 1 1810,Theologian ,6,1810s
+Jan 1 1820,Theologian ,1,1820s
+Jan 1 1830,Theologian ,2,1830s
+Jan 1 1840,Theologian ,2,1840s
+Jan 1 1850,Theologian ,0,1850s
+Jan 1 1860,Theologian ,1,1860s
+Jan 1 1870,Theologian ,3,1870s
+Jan 1 1880,Theologian ,1,1880s
+Jan 1 1890,Theologian ,0,1890s
+Jan 1 1900,Theologian ,0,1900s
+Jan 1 1910,Theologian ,0,1910s
+Jan 1 1920,Theologian ,2,1920s
+Jan 1 1930,Theologian ,2,1930s
+Jan 1 1940,Theologian ,0,1940s
+Jan 1 1950,Theologian ,1,1950s
+Jan 1 1960,Theologian ,1,1960s
+Jan 1 1970,Theologian ,0,1970s
+Jan 1 1510,Humanities Related,2,1510s
+Jan 1 1520,Humanities Related,4,1520s
+Jan 1 1530,Humanities Related,1,1530s
+Jan 1 1540,Humanities Related,8,1540s
+Jan 1 1550,Humanities Related,8,1550s
+Jan 1 1560,Humanities Related,6,1560s
+Jan 1 1570,Humanities Related,4,1570s
+Jan 1 1580,Humanities Related,7,1580s
+Jan 1 1590,Humanities Related,4,1590s
+Jan 1 1600,Humanities Related,11,1600s
+Jan 1 1610,Humanities Related,8,1610s
+Jan 1 1620,Humanities Related,7,1620s
+Jan 1 1630,Humanities Related,7,1630s
+Jan 1 1640,Humanities Related,18,1640s
+Jan 1 1650,Humanities Related,7,1650s
+Jan 1 1660,Humanities Related,2,1660s
+Jan 1 1670,Humanities Related,4,1670s
+Jan 1 1680,Humanities Related,7,1680s
+Jan 1 1690,Humanities Related,4,1690s
+Jan 1 1700,Humanities Related,8,1700s
+Jan 1 1710,Humanities Related,15,1710s
+Jan 1 1720,Humanities Related,2,1720s
+Jan 1 1730,Humanities Related,5,1730s
+Jan 1 1740,Humanities Related,13,1740s
+Jan 1 1750,Humanities Related,18,1750s
+Jan 1 1760,Humanities Related,10,1760s
+Jan 1 1770,Humanities Related,4,1770s
+Jan 1 1780,Humanities Related,10,1780s
+Jan 1 1790,Humanities Related,12,1790s
+Jan 1 1800,Humanities Related,17,1800s
+Jan 1 1810,Humanities Related,19,1810s
+Jan 1 1820,Humanities Related,26,1820s
+Jan 1 1830,Humanities Related,26,1830s
+Jan 1 1840,Humanities Related,18,1840s
+Jan 1 1850,Humanities Related,22,1850s
+Jan 1 1860,Humanities Related,36,1860s
+Jan 1 1870,Humanities Related,44,1870s
+Jan 1 1880,Humanities Related,48,1880s
+Jan 1 1890,Humanities Related,35,1890s
+Jan 1 1900,Humanities Related,51,1900s
+Jan 1 1910,Humanities Related,67,1910s
+Jan 1 1920,Humanities Related,62,1920s
+Jan 1 1930,Humanities Related,72,1930s
+Jan 1 1940,Humanities Related,96,1940s
+Jan 1 1950,Humanities Related,58,1950s
+Jan 1 1960,Humanities Related,35,1960s
+Jan 1 1970,Humanities Related,7,1970s
+Jan 1 1510,Other,2,1510s
+Jan 1 1520,Other,7,1520s
+Jan 1 1530,Other,1,1530s
+Jan 1 1540,Other,6,1540s
+Jan 1 1550,Other,6,1550s
+Jan 1 1560,Other,4,1560s
+Jan 1 1570,Other,3,1570s
+Jan 1 1580,Other,5,1580s
+Jan 1 1590,Other,5,1590s
+Jan 1 1600,Other,6,1600s
+Jan 1 1610,Other,4,1610s
+Jan 1 1620,Other,7,1620s
+Jan 1 1630,Other,3,1630s
+Jan 1 1640,Other,6,1640s
+Jan 1 1650,Other,7,1650s
+Jan 1 1660,Other,2,1660s
+Jan 1 1670,Other,2,1670s
+Jan 1 1680,Other,1,1680s
+Jan 1 1690,Other,4,1690s
+Jan 1 1700,Other,10,1700s
+Jan 1 1710,Other,8,1710s
+Jan 1 1720,Other,1,1720s
+Jan 1 1730,Other,14,1730s
+Jan 1 1740,Other,8,1740s
+Jan 1 1750,Other,11,1750s
+Jan 1 1760,Other,8,1760s
+Jan 1 1770,Other,14,1770s
+Jan 1 1780,Other,14,1780s
+Jan 1 1790,Other,15,1790s
+Jan 1 1800,Other,14,1800s
+Jan 1 1810,Other,9,1810s
+Jan 1 1820,Other,12,1820s
+Jan 1 1830,Other,31,1830s
+Jan 1 1840,Other,18,1840s
+Jan 1 1850,Other,30,1850s
+Jan 1 1860,Other,29,1860s
+Jan 1 1870,Other,28,1870s
+Jan 1 1880,Other,33,1880s
+Jan 1 1890,Other,30,1890s
+Jan 1 1900,Other,46,1900s
+Jan 1 1910,Other,60,1910s
+Jan 1 1920,Other,54,1920s
+Jan 1 1930,Other,59,1930s
+Jan 1 1940,Other,81,1940s
+Jan 1 1950,Other,55,1950s
+Jan 1 1960,Other,42,1960s
+Jan 1 1970,Other,19,1970s

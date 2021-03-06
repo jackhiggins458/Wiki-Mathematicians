@@ -1,0 +1,80 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 900,
+  "height": 600,
+  "title":"GDP per Capita vs Number of Wikipedia Mathematicians per Million People",
+  "data": {
+    "url": "https://raw.githubusercontent.com/jackhiggins458/FIT31792/main/data/math_country_data.csv"},
+    
+    "encoding": {
+      "x": {
+        "field": "GDP_per_Capita_PPP",
+        "type": "quantitative",
+        "axis": {
+          "labelAngle": 0
+        }
+      },
+      "y": {
+        "field": "per_mil",
+        "type": "quantitative",
+        "scale": {"domain":[0,16]}
+      }
+    },
+ 
+  "layer": [ 
+    {
+     "selection": {
+        "continent_highlight": {
+          "type": "multi", 
+          "fields": ["Continent"],
+          "bind": "legend"
+        }
+      },
+      "mark": "circle",
+      "encoding": {
+        "size": {
+          "field":"n",
+          "type":"quantitative",
+          "scale": {
+            "type": "linear",
+            "domain": [0,2000],
+            "range": [50,4000]
+          }
+        },
+
+        "color": {
+          "field": "Continent", 
+          "scale": {
+            "domain":["AF", "AS", "EU", "NA", "OC", "SA"]
+          }
+        },
+
+        "opacity":{
+          "condition":{"selection":"continent_highlight","value":0.7},
+          "value":0.2
+        },
+        "tooltip": [
+          {"field": "country", "type": "nominal", "title": "Country"},
+          {"field": "per_mil", "type": "quantitative", "title": "Wikipedia Mathematicians per million people"},
+          {"field": "GDP_per_Capita_PPP", "type": "quantitative", "title": "GDP per capita"},
+          {"field": "n", "type": "quantitative", "title": "Number of Wikipedia Mathematicians"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dx": 0,
+        "dy":0,
+        "fontSize": 10.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "country_code", "type": "nominal"},
+        "color": {"value": "black"}
+      }
+    }
+  ]
+}
